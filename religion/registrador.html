@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrador</title>
+	<link rel="stylesheet" type="text/css" href="minuta.css">
+</head>
+<body>
+	<div class="reg">
+	<form action="PersonasControlador.php" method="post" name="registro">
+		<table align="center">
+			<tr>
+				<td colspan="2"><b>Registrar religion</b></td>
+			</tr>
+			<tr>
+				<td>Nombre:</td><td><input type="text" name="nombre" id="nombre" placeholder="Ej: el consejo" title="Ingrese nombre de su parroquia" required="required"></td>
+			</tr>
+			<tr>
+				<td>libro:</td><td><input type="text" name="libro" id="libro" placeholder="Ej: Biblia" title="Ingrese el tipo de libro" required="required"></td>
+			</tr>
+			<tr>
+				<td>Profeta</td><td><input type="text" name="profeta" id="profeta" placeholder="Ej: Mahoma" title="Nombre del Profeta " required="required"></td>
+			</tr>
+			<tr>
+				<td>Origen:</td><td><input type="text" name="origen" id="origen" placeholder="Ej: El Tibet" title="Ingrese su origen" required="required"></td>
+			</tr>
+			<tr>
+				<td>Ano de Iniciacion:</td><td><input type="numb" name="anio_inicio" id="anio_inicio" placeholder="300 A.C." title="300 A.C." required="required"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="hidden" name="operacion" value="registro">
+					<input type="submit" name="enviar" value="registro"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

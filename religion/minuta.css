@@ -1,0 +1,85 @@
+.minuta
+{
+	align-content: center;
+	width: 400px;
+	height: 150px;
+	background:#23baca;
+	border-radius: 5px;
+	position: fixed;
+	top:20%;
+	left:30%;
+	font-size:19px;
+	color:black;
+	text-align:center;
+}
+
+li
+{
+	font-size: 19px;
+	text-align: center;
+	padding: -2px;
+	margin: 1px;
+}
+
+.reg
+{
+
+	align-content: center;
+	width: 400px;
+	height: 180px;
+	background:#23baca;
+	border-radius: 5px;
+	position: fixed;
+	top:20%;
+	left:30%;
+	font-size:19px;
+	color:black;
+	text-align:center;
+
+}
+
+.edit
+{
+	align-content: center;
+	width: 400px;
+	height: 150px;
+	background:#23baca;
+	border-radius: 5px;
+	position: fixed;
+	top:20%;
+	left:30%;
+	font-size:19px;
+	color:green;
+	text-align:center;
+}
+
+.alert1
+{
+	align-content: center;
+	width: 400px;
+	height: 60px;
+	background:#23baca;
+	border-radius: 5px;
+	position: fixed;
+	top:20%;
+	left:30%;
+	font-size:19px;
+	color:pink;
+	text-align:center;
+}
+
+.alert2
+{
+	align-content: center;
+	width: 400px;
+	height: 60px;
+	background:#23baca;
+	border-radius: 5px;
+	position: fixed;
+	top:20%;
+	left:30%;
+	font-size:19px;
+	color:black;
+	text-align:center;
+}
+
